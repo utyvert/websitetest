@@ -21,3 +21,22 @@ main{
 background-color: #1F2937;
 
 }
+
+ul {
+    list-style-type: none
+
+}
+
+#buttons {
+    position:absolute;
+    top: 35px;
+    right:30px;
+    word-spacing: 40px;
+    color: #f9faf8
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
