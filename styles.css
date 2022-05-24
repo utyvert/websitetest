@@ -2,23 +2,48 @@
     padding: 20x 10px;
     background-color: #1F2937;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:"SF-Pro-Display-Bold";
+    font-weight: 8px;
     font-size: 48px;
-}
 
-h1, h2, h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
     
 }
 
-.awesome{
-
+body {
+    padding:0;
+    margin:0;
 }
 
-main{
 
-background-color: #1F2937;
+
+h1, h2, h3{
+    font-family: 'SF-Pro';
+    font-weight: bold;
+    color: white;
+    padding:0;
+    margin:0;
+}
+@font-face {
+    font-family: "SF-Pro-Display-Bold";
+    src: url("SF-Pro-Display-Bold.otf")
+}
+
+@font-face {
+    font-family: "SF-Pro";
+    src: url('SF-Pro.ttf')
+}
+#blue {
+    background-color: #1F2937;
+    background-size: cover;
+    
+}
+
+
+main{
+    background-color: #1F2937;
+    bottom: 10px;
+    display: flex;
+    
 
 }
 
@@ -32,11 +57,33 @@ ul {
     top: 35px;
     right:30px;
     word-spacing: 40px;
-    color: #f9faf8
+    color: #f9faf8;
+    font-family:"SF-Pro-Display-Bold";
+
+    
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+.flex1 {
+
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+
+ 
+.awesome {
+    font-family:"SF-Pro-Display-Bold";
+    display: flex;
+    flex-wrap: nowrap;
+
+    
+}
+
+a:link { text-decoration: none; color: white; }
+a:visited { text-decoration: none; color: white;}
+a:hover { text-decoration: none; color: white; }
+a:active { text-decoration: none; color: white;}
+
 
